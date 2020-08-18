@@ -1,112 +1,61 @@
+/*=== Config styles
+=========================*/
 
-body{
+*{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
+.wrap{
+    width: 1400px;
+    height: 1009px;
+    margin: 0 auto;
 
-h1{
-
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    
-}
-hr{
-    background-color: #FF8B38;
-    width: 64px;
-    height: 2px;
-    border: none;
-
-
-}
-h2{
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+/*====Awesome
+================================*/
+.awesome{
+    width: 100%;
+    height: 591px;
+}
+.card{
     display: inline-block;
+    width: 300px;
 }
-h3{
-    font-family: 'Open Sans', sans-serif;
-    white-space: nowrap;
-   
-  
- 
-}
-.box{
-   display: inline-block;
-    width: 350px;
-    height: 197px;
-    margin-top: 80px;
-    padding: 10px;
-    text-align: center;
-    
-}
+/*====Download
+================================*/
 
-.section{
+.download{
     width: 100%;
-    margin: auto;
-    margin-top: 80px;
-    
-}
-.gallery{
-    width: 100%;
-    margin: auto;
-    margin-top: 76px;
-    height: 296px;
-    background: url(img/city.png) no-repeat center;
-    font-family: 'Raleway', sans-serif;
-    color:#FFFFFF ;
-
-   width: 1401px;
-   height: 322 px;
-
+    height: 322px;
+    background: 
+        linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)),
+        url(img/city.png) no-repeat center center;
+    background-size: cover;
 }
 
-.content{
-    padding-top: 76px;
-}
-.round{
-    border-radius: 140px; 
-    border: 3px solid #FF8B38;
-    padding: 10px;
-   
-}
 
-header{  
-   vertical-align: middle;
-   text-align: center;
-   width: 50%;
-   margin: auto;
-}
 
-main{
-    text-align: center;
-}
-.line{
-    background-color:#FFFFFF ;
-}
-h5{
-    font-family: 'Raleway', sans-serif;
-    
-}
+/*====Footer
+================================*/
 .footer{
-   
-    width:1401px;
+    width:100% ;
     height: 101px;
-    top: 909px;
-    background: url(img/black.png);
-   
+    background-color: #000000;
 }
-#click{
-    background: transparent;
-    outline: none;
-    border-color:#FFFFFF ;
-    color: #FFFFFF;
-    width: 135px;
-    height: 42px;
-}
-#click:hover{
-    background: burlywood;
-}
-.socials{
-    color: #FFFFFF;
-  
-}
+
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
